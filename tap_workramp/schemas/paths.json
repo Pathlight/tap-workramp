@@ -1,0 +1,83 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "sequentialUnlock": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "passingScoreRequiredForUnlock": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "createdAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updatedAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "cardBanner": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeEstimateSeconds": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numGuides": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numResources": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numChallenges": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        }
+    }
+}

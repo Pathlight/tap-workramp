@@ -1,0 +1,84 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "userId": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "trainingSeriesId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "assignerId": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "overallGrade": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "isCompleted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "dueDate": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "createdAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updatedAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "createdThrough": {
+            "type": [
+                "null",
+                "???"
+            ]
+        },
+        "numModules": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "modulesCompleted": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        }
+    }
+}

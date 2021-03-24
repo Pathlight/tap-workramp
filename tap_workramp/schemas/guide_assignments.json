@@ -1,0 +1,115 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "userId": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "courseId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "trainingSeriesUserAssignmentId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "dueDate": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "numViewedTasks": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numCompletedTasks": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numCompletedTestQuestions": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numGradedTestQuestions": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "numCorrectTestQuestions": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "score": {
+            "type": [
+                "null",
+                "number"
+            ]
+        },
+        "isArchived": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "isCompleted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "createdAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updatedAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "completedAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        }
+    }
+}

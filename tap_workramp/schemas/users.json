@@ -1,0 +1,104 @@
+{
+    "type": [
+        "null",
+        "object"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "integer"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "email": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isAdmin": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "isDeleted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "isPermanentlyDeleted": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "createdAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "updatedAt": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "directReports": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "id": {
+                        "type": ["null", "integer"]
+                    },
+                    "name": {
+                        "type": ["null", "string"]
+                    },
+                    "email": {
+                        "type": ["null", "string"]
+                    }
+                }
+            }
+        },
+        "certifications": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": [
+                    "null",
+                    "object"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "id": {
+                        "type": ["null", "integer"]
+                    },
+                    "title": {
+                        "type": ["null", "string"]
+                    }
+                }
+            }
+        }
+    }
+}
